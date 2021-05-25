@@ -6,7 +6,7 @@ removes submissions from users who participate in subreddits you don't like.
 
 Clone the repo, change directories:
 
-    git clone https://github.com/IThinkImOKAY/turbo-mod
+    git clone https://github.com/SlickTalk/turbo-mod
     cd turbo-mod
 
 Install the requirements:
