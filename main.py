@@ -31,7 +31,7 @@ while True:
                     break
             for comment in reddit.redditor(author).comments.new(limit=None):
                 if comment.subreddit.display_name in subs:
-                    is_nsfw = not is_nsfw
+                    is_nsfw = is_nsfw == True if is_nsfw = False
                     print('nsfw comment!')
                     break
             print('IS NSFW???',is_nsfw)
